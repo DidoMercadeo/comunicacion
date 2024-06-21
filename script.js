@@ -20,9 +20,9 @@ const changFoodPosition = () => {
 
 const handleGameOver = () => {
   clearInterval(setIntervalId);
-  alert("Peligros existentes en nuestra tarea laboral o en nuestro propio entorno o lugares de trabajo, que puede provocar accidentes o cualquier tipo de siniestro, que, a su vez, sean factores que puedan provocar heridas, daños físicos, y psicológicos, traumatismos, etc");
+  alert("Peligros existentes en nuestra tarea laboral o en nuestro propio entorno o lugares de trabajo.");
   window.prompt("Respuesta")
-  alert("Suceso repentino que sobrevenga por causa o con ocasión del trabajo, y que produzca en el trabajador una lesión orgánica, perturbación funcional, invalidez o muerte.");
+  alert("Suceso repentino que se produsca por causa o ocasión del trabajo, y que produzca en el trabajador una lesión orgánica, perturbación funcional, invalidez o muerte.");
   window.prompt("Respuesta")
   location.reload();
 }
